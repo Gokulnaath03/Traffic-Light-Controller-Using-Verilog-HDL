@@ -30,6 +30,7 @@ Save and Document Results:
 Capture screenshots of the waveform and save the simulation logs to include in your report.
 
 ## Verilog Code for Traffic Light Controller
+```
 module cyclic_lamp(clk,rst,light); 
 input clk,rst; 
 output reg [2:0] light; 
@@ -54,7 +55,7 @@ default: begin
  end 
 
  endcase
-
+```
 endmodule
 ## Output:
 
